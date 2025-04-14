@@ -22,9 +22,8 @@ A comunicação entre Front-End e Back-End ocorre via **REST**. Ambos os módulo
 
 O módulo **API (Back-End)** consulta um serviço externo (VIACEP) para trazer informações pertinentes ao endereço consultado.
 Esta aplicação utiliza a API pública [VIACEP](https://viacep.com.br/) para consulta de endereços a partir de um CEP informado pelo usuário.  
-A integração é feita diretamente no back-end, que trata os dados da resposta e os envia à interface.Não há redirecionamento para serviços externos durante o uso.
+A integração é feita diretamente no back-end, que trata os dados da resposta e os envia à interface.Não há redirecionamento para serviços externos durante o uso. O serviço ViaCep é gratuito e de uso livre, sem necessidadede autenticação ou cadastro.
 
-**Licença**: O serviço VIACEP é gratuito e de uso livre, sem necessidade de autenticação ou cadastro, conforme informado em sua [documentação oficial](https://viacep.com.br).
 ---
 
 ## Como executar o Front-End com Docker
